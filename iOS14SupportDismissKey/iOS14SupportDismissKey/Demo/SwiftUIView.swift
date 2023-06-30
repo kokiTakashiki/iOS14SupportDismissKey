@@ -9,8 +9,8 @@ import SwiftUI
 
 struct SwiftUIView: View {
 
-    @Environment(\.dismissable) private var dismiss
-    //@Environment(\.customDismiss) private var dismiss
+    //@Environment(\.dismissable) private var dismiss
+    @Environment(\.customDismiss) private var dismiss
     
     var body: some View {
         ZStack {
